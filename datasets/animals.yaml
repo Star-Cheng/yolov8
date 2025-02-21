@@ -1,0 +1,19 @@
+train: D:\Test_data\Yolo_data\cat_category\data\images\train
+val: D:\Test_data\Yolo_data\cat_category\data\images\val
+test: # test images (optional)
+
+nc: 10
+
+names:
+    0: bird
+    1: cat
+    2: dog
+    3: lizard
+    4: guinea pig
+    5: hamster
+    6: fish
+    7: horse
+    8: rabbit
+    9: turtle
+
+url: https://www.kaggle.com/datasets/nebjamin/images-of-common-pets/data

@@ -1,0 +1,8 @@
+# path: ../datasets/coco128 # dataset root dir
+train: C:\Users\13359\Documents\WeChat Files\Gym1335929010\FileStorage\File\2024-12\roi\data\images\train
+val: C:\Users\13359\Documents\WeChat Files\Gym1335929010\FileStorage\File\2024-12\roi\data\images\val
+test: # test images (optional)
+
+# Classes
+names:
+  0: ym

@@ -1,0 +1,14 @@
+train: D:\Test_data\Yolo_data\Pests\data\images\train
+val: D:\Test_data\Yolo_data\Pests\data\images\val
+test: # test images (optional)
+
+nc: 15
+
+names: ['Aphids', 'Early Blight', 'Healthy Leaf-', 'Leaf Curl', 'Leafhoppers and Jassids', 'Molds', 'Mosaic Virus', 'Septoria', 'bactarial canker', 'bacterial spot', 'flea beetle', 'late_blight', 'leafminer', 'powedry_mildew', 'yellow curl virus']
+
+roboflow:
+  workspace: absolute
+  project: tomato-pest-diseases
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/absolute/tomato-pest-diseases/dataset/1

@@ -1,0 +1,17 @@
+# path: ../datasets/coco128 # dataset root dir
+train: D:\Test_data\Yolo_data\Furniture\data\images\train
+val: D:\Test_data\Yolo_data\Furniture\data\images\val
+test: # test images (optional)
+
+# Classes
+names:
+  0: chair
+  1: sofa
+  2: desk
+
+roboflow:
+  workspace: elizaveta-vcs8b
+  project: furniture-pqb1a
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/elizaveta-vcs8b/furniture-pqb1a/dataset/2
