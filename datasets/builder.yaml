@@ -1,0 +1,13 @@
+train: D:\Test_data\Yolo_data\Builder\data\images\train
+val: D:\Test_data\Yolo_data\Builder\data\images\val
+test: # test images (optional)
+
+nc: 9
+names: ['NO glove', 'NO hardhat', 'NO safety shoe', 'NO safety vest', 'glove', 'hardhat', 'person', 'safety shoe', 'safety vest']
+
+roboflow:
+  workspace: ppe-fg0hl
+  project: ppe-mscws
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ppe-fg0hl/ppe-mscws/dataset/2
